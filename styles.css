@@ -1,0 +1,28 @@
+html { 
+    background-color: rgb(247, 240, 195);
+}
+
+body {
+    margin: 0%;
+}
+
+.site-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: rgb(178, 205, 181);
+}
+
+.site-link {
+    margin: 0 10px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.site-link:hover {
+    background-color: rgb(73, 101, 73);
+    color: aliceblue;
+}
