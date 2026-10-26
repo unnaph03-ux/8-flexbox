@@ -4,7 +4,11 @@ html {
 
 body {
     margin: 0%;
+    font-family: "Noto Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 .site-links {
     list-style-type: none;
@@ -25,4 +29,36 @@ body {
 .site-link:hover {
     background-color: rgb(73, 101, 73);
     color: aliceblue;
+}
+
+.site-header {
+    background-color: rgb(240, 218, 212);
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: rgb(218, 227, 234);
+    flex: 0 0 200px;
+}
+
+.site-main {
+    background-color: rgb(220, 208, 227);
+    padding: 20px;
+}
+
+.site-footer {
+    background-color: rgb(236, 217, 190);
+    padding: 20px;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
